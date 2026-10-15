@@ -1,7 +1,7 @@
 import { FadeIn } from "./FadeIn";
 import { Magnet } from "./Magnet";
 import { ContactButton } from "./ContactButton";
-import heroPortrait from "@/assets/solus-portrait.png";
+import heroPortrait from "@/assets/amen-portrait.png";
 
 const NAV_LINKS = ["About", "Skills", "Services", "Projects", "Contact"];
 
@@ -54,7 +54,7 @@ export function HeroSection() {
               lg:text-[17.5vw]
             "
           >
-            Hi, i&apos;m Solus
+            Hi, i&apos;m Amen
           </h1>
         </FadeIn>
       </div>
@@ -128,7 +128,7 @@ export function HeroSection() {
         >
           <img
             src={heroPortrait}
-            alt="Solus portrait"
+            alt="Amen portrait"
             className="w-full h-auto select-none pointer-events-none"
             draggable={false}
           />

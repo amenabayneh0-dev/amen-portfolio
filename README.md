@@ -1,4 +1,4 @@
-# Solus — Portfolio
+# Amen — Portfolio
 
 A single-page, animated personal portfolio built with React 19, TypeScript, Tailwind CSS v4 and Framer Motion, server-rendered with [TanStack Start](https://tanstack.com/start). It is configured to deploy on **Vercel**.
 
@@ -31,11 +31,11 @@ Other scripts: `npm run build` (production build), `npm run lint`, `npm run form
 
 Before deploying, replace the placeholders:
 
-- **Email:** `hello@solus.dev` in `src/components/jack/ContactButton.tsx` and `FooterSection.tsx`
-- **GitHub link:** `https://github.com/your-username` in `FooterSection.tsx` (also update the other social links there)
+- **Email:** `amenabayneh0@gmail.com` (already set) in `src/components/jack/ContactButton.tsx` and `FooterSection.tsx`
+- **GitHub link:** `https://github.com/amenabayneh0-dev` (already set) in `FooterSection.tsx`; the Instagram and Telegram links there still need updating
 - **Bio:** the text in `AboutSection.tsx`
 - **Skills / services / projects:** `SkillsSection.tsx`, `ServicesSection.tsx`, `ProjectsSection.tsx`
-- **Images:** replace `src/assets/solus-portrait.png` and the `project-*.png` files (keep the same filenames, or update the imports)
+- **Images:** replace `src/assets/amen-portrait.png` and the `project-*.png` files (keep the same filenames, or update the imports)
 - **Page title / description:** `src/routes/index.tsx` and `src/routes/__root.tsx`
 
 ---
@@ -111,4 +111,4 @@ nitro: { preset: "vercel" }
 
 ---
 
-© 2026 Solus. All rights reserved.
+© 2026 Amen. All rights reserved.

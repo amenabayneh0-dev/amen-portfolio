@@ -31,7 +31,7 @@ export function FooterSection() {
         <FadeIn delay={0.2} y={30}>
           <div className="flex justify-center mt-12">
             <a
-              href="mailto:hello@solus.dev"
+              href="mailto:amenabayneh0@gmail.com"
               className="
                 px-10 py-5
                 rounded-full
@@ -57,7 +57,7 @@ export function FooterSection() {
         <FadeIn delay={0.3} y={20}>
           <div className="mt-14 flex justify-center">
             <a
-              href="mailto:hello@solus.dev"
+              href="mailto:amenabayneh0@gmail.com"
               className="
                 flex items-center gap-3
                 text-white/70
@@ -66,7 +66,7 @@ export function FooterSection() {
               "
             >
               <FaEnvelope size={20} />
-              <span className="text-lg">hello@solus.dev</span>
+              <span className="text-lg">amenabayneh0@gmail.com</span>
             </a>
           </div>
         </FadeIn>
@@ -75,7 +75,7 @@ export function FooterSection() {
         <FadeIn delay={0.4} y={20}>
           <div className="flex justify-center gap-8 mt-12">
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/amenabayneh0-dev"
               target="_blank"
               rel="noreferrer"
               className="
@@ -123,10 +123,10 @@ export function FooterSection() {
 
         {/* Bottom */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <span className="text-white/40 text-sm">© 2026 Solus. All rights reserved.</span>
+          <span className="text-white/40 text-sm">© 2026 Amen. All rights reserved.</span>
 
           <span className="text-white/40 text-sm uppercase tracking-[0.2em]">
-            Designed & Developed by Solus
+            Designed & Developed by Amen
           </span>
         </div>
       </div>

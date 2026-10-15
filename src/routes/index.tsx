@@ -11,21 +11,21 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "Solus | Full-Stack Developer",
+        title: "Amen | Full-Stack Developer",
       },
       {
         name: "description",
         content:
-          "Solus — Full-stack developer building practical software and exploring the systems behind it.",
+          "Amen — Full-stack developer building practical software and exploring the systems behind it.",
       },
       {
         property: "og:title",
-        content: "Solus | Full-Stack Developer",
+        content: "Amen | Full-Stack Developer",
       },
       {
         property: "og:description",
         content:
-          "Solus — Full-stack developer building practical software and exploring the systems behind it.",
+          "Amen — Full-stack developer building practical software and exploring the systems behind it.",
       },
     ],
 

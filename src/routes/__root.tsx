@@ -78,17 +78,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Solus | Full-Stack Developer" },
+      { title: "Amen | Full-Stack Developer" },
       {
         name: "description",
         content:
-          "Solus — Full-stack developer building practical software and exploring the systems behind it.",
+          "Amen — Full-stack developer building practical software and exploring the systems behind it.",
       },
-      { property: "og:title", content: "Solus | Full-Stack Developer" },
+      { property: "og:title", content: "Amen | Full-Stack Developer" },
       {
         property: "og:description",
         content:
-          "Solus — Full-stack developer building practical software and exploring the systems behind it.",
+          "Amen — Full-stack developer building practical software and exploring the systems behind it.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
