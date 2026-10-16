@@ -2,6 +2,8 @@ import { FadeIn } from "./FadeIn";
 import { Magnet } from "./Magnet";
 import { ContactButton } from "./ContactButton";
 import heroPortrait from "@/assets/amen-portrait.png";
+import solusLogo from "@/assets/solus-logo.jpg";
+import { INTRO_HERO_OFFSET as OFF } from "@/lib/intro";
 
 const NAV_LINKS = ["About", "Skills", "Services", "Projects", "Contact"];
 
@@ -11,10 +13,25 @@ export function HeroSection() {
       {/* Navbar */}
       <FadeIn
         as="nav"
-        delay={0}
+        delay={OFF + 0}
         y={-20}
         className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 sm:flex-nowrap sm:justify-between sm:gap-0 px-6 md:px-10 pt-6 md:pt-8 relative z-20"
       >
+        <div className="relative flex basis-full justify-center sm:block sm:basis-auto">
+          <div className="relative h-10 w-10 md:h-11 md:w-11">
+            <img
+              id="solus-nav-logo"
+              src={solusLogo}
+              alt="SOLUS"
+              className="h-full w-full rounded-full"
+              draggable={false}
+            />
+            <span
+              id="solus-nav-pulse"
+              className="pointer-events-none absolute inset-0 rounded-full border border-[#b99342] opacity-0"
+            />
+          </div>
+        </div>
         {NAV_LINKS.map((link) => (
           <a
             key={link}
@@ -38,7 +55,7 @@ export function HeroSection() {
 
       {/* Title */}
       <div className="overflow-hidden mt-6 sm:mt-4 md:-mt-5 px-2">
-        <FadeIn delay={0.15} y={40}>
+        <FadeIn delay={OFF + 0.15} y={40}>
           <h1
             className="
               hero-heading
@@ -75,7 +92,7 @@ export function HeroSection() {
           z-20
         "
       >
-        <FadeIn delay={0.35} y={20}>
+        <FadeIn delay={OFF + 0.35} y={20}>
           <p
             className="
               text-[#D7E2EA]
@@ -95,14 +112,14 @@ export function HeroSection() {
           </p>
         </FadeIn>
 
-        <FadeIn delay={0.5} y={20}>
+        <FadeIn delay={OFF + 0.5} y={20}>
           <ContactButton />
         </FadeIn>
       </div>
 
       {/* Portrait */}
       <FadeIn
-        delay={0.6}
+        delay={OFF + 0.6}
         y={30}
         className="
           absolute

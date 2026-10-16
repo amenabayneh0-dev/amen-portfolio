@@ -5,6 +5,7 @@ import { AboutSection } from "@/components/jack/AboutSection";
 import { ServicesSection } from "@/components/jack/ServicesSection";
 import { ProjectsSection } from "@/components/jack/ProjectsSection";
 import { SkillsSection } from "@/components/jack/SkillsSection";
+import { SolusIntro } from "@/components/jack/SolusIntro";
 import { FooterSection } from "@/components/jack/FooterSection";
 
 export const Route = createFileRoute("/")({
@@ -43,14 +44,17 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main style={{ background: "#0C0C0C", overflowX: "clip" }}>
-      <HeroSection />
-      <MarqueeSection />
-      <AboutSection />
-      <SkillsSection />
-      <ServicesSection />
-      <ProjectsSection />
-      <FooterSection />
-    </main>
+    <>
+      <SolusIntro />
+      <main style={{ background: "#0C0C0C", overflowX: "clip" }}>
+        <HeroSection />
+        <MarqueeSection />
+        <AboutSection />
+        <SkillsSection />
+        <ServicesSection />
+        <ProjectsSection />
+        <FooterSection />
+      </main>
+    </>
   );
 }
