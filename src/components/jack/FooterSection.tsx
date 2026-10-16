@@ -89,7 +89,7 @@ export function FooterSection() {
             </a>
 
             <a
-              href="https://instagram.com/its.junox"
+              href="https://instagram.com/xausolus"
               target="_blank"
               rel="noreferrer"
               className="
@@ -103,7 +103,7 @@ export function FooterSection() {
             </a>
 
             <a
-              href="https://t.me/Juno_xo"
+              href="https://t.me/xausolus"
               target="_blank"
               rel="noreferrer"
               className="

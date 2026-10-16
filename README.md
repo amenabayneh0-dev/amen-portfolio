@@ -32,7 +32,7 @@ Other scripts: `npm run build` (production build), `npm run lint`, `npm run form
 Before deploying, replace the placeholders:
 
 - **Email:** `amenabayneh0@gmail.com` (already set) in `src/components/jack/ContactButton.tsx` and `FooterSection.tsx`
-- **GitHub link:** `https://github.com/amenabayneh0-dev` (already set) in `FooterSection.tsx`; the Instagram and Telegram links there still need updating
+- **GitHub link:** `https://github.com/amenabayneh0-dev` (already set) in `FooterSection.tsx`; Instagram and Telegram are set to `@xausolus`
 - **Bio:** the text in `AboutSection.tsx`
 - **Skills / services / projects:** `SkillsSection.tsx`, `ServicesSection.tsx`, `ProjectsSection.tsx`
 - **Images:** replace `src/assets/amen-portrait.png` and the `project-*.png` files (keep the same filenames, or update the imports)
